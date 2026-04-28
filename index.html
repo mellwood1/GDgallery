@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="images/OIP.jpg">
+
     <link rel="icon" type="image/x-icon" href="images/OIP.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Grateful Dead Video Gallery</title>
 </head>
 
@@ -17,13 +18,11 @@
     </header>
     <nav id="nav_list">
         <ul>
-            <ul>
-                <li><a href="#vid1"></a>What did I miss</li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-            </ul>
+            <li><a href="#vid1">What did I miss</a></li>
+            <li><a href="#vid2">Best I Ever Had</a></li>
+            <li><a href="#vid3">Show Me a Good Time</a></li>
+            <li><a href="#vid4">Madonna</a></li>
+            <li><a href="#vid5">Flights Booked</a></li>
         </ul>
     </nav>
     <main>
@@ -31,36 +30,60 @@
             <article id="vid1">
                 <h4>What did I miss</h4>
                 <div class="videowrapper">
-                    <iframe src="https://www.youtube.com/embed/weU76DGHKU0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/weU76DGHKU0" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
-                <div class="caption">Iconic song about what Drake might have missed</div>
+                <div class="caption">Iconic song about what Drake might have missed.</div>
             </article>
             <article id="vid2">
-                <h4></h4>
-                <div class="videowrapper"></div>
-                <div class="caption"></div>
+                <h4>Best I Ever Had</h4>
+                <div class="videowrapper">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/QOThJ5Zh6XM"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="caption">The best Drake has ever had. </div>
             </article>
             <article id="vid3">
-                <h4></h4>
-                <div class="videowrapper"></div>
-                <div class="caption"></div>
+                <h4>Show Me A Good Time</h4>
+                <div class="videowrapper">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/q5bZB9i42tg"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="caption">Drake wants to be shown a good time. <div>
             </article>
             <article id="vid4">
-                <h4></h4>
-                <div class="videowrapper"></div>
-                <div class="caption"></div>
+                <h4>Madonna</h4>
+                <div class="videowrapper"><iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/303KnmDqVwY" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                <div class="caption">This is a song Drake wrote about how he can make a girl famous like Madonna</div>
             </article>
             <article id="vid5">
-                <h4></h4>
-                <div class="videowrapper"></div>
-                <div class="caption"></div>
+                <h4>Flights Booked</h4>
+                <div class="videowrapper"><iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/hb24kZ0fiEA" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                <div class="caption">This song reflects themes of travel and escapism, highlighting a desire to break
+                    free from routine.</div>
             </article>
         </section>
     </main>
+
+    <div><button onclick="topFunction()" id="cornerBtn" title="Go to top">Return To Top</button></div>
+
     <footer>
         <p>&copy; <span id="copyright"></span>Matt Ellwood Productions</p>
     </footer>
 
 </body>
+
+<script src="js/scripts.js"></script>
 
 </html>
